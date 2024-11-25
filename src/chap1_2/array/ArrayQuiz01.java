@@ -1,4 +1,4 @@
-package ch1_2.array;
+package chap1_2.array;
 
 import java.util.Arrays;
 import java.util.Scanner;

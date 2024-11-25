@@ -1,4 +1,4 @@
-package ch1_2.function;
+package chap1_2.function;
 
 public class MethodBasic {
 

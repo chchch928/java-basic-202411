@@ -1,4 +1,4 @@
-package ch1_2.function;
+package chap1_2.function;
 
 import java.util.Arrays;
 

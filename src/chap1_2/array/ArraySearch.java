@@ -1,4 +1,4 @@
-package ch1_2.array;
+package chap1_2.array;
 
 public class ArraySearch {
     public static void main(String[] args) {
