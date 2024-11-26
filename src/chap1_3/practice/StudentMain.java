@@ -1,8 +1,8 @@
-package chap1_3;
+package chap1_3.practice;
 
 public class StudentMain {
     public static void main(String[] args) {
-        Student Patrick = new Student("hahaha","patrick",3);
+        Student Patrick = new Student("patrick",3);
 
         Patrick.updateGrade(4);
 

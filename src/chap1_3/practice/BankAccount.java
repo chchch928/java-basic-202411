@@ -1,12 +1,12 @@
-package chap1_3;
+package chap1_3.practice;
 
 public class BankAccount {
     // 일반 속성
-    int accountNumber;
+    String accountNumber;
     String owner;
 
     // 상태속성
-    int balance;
+    double balance;
 
     // 기능
     void deposit (double amount) {
@@ -18,12 +18,15 @@ public class BankAccount {
         }
         else{
             System.out.println("잔액부족");
+            return;
         }
     }
     void displayBalance(){
         System.out.println(balance);
     }
-    BankAccount(String ownerName) {
-        owner = ownerName;
+    void transfer(BankAccount takenAccount, int amount) {
+        balance -= amount;
+        takenAccount.balance += amount;
     }
+
 }
