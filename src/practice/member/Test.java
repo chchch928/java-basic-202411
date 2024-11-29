@@ -1,4 +1,4 @@
-package practice.Member;
+package practice.member;
 
 public class Test {
     public static void main(String[] args) {

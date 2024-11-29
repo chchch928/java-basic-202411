@@ -1,4 +1,4 @@
-package practice.Member;
+package practice.member;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
