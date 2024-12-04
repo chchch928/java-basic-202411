@@ -5,6 +5,7 @@ public class Car {
     private int year;
     public static int count;
 
+    // 생성자: 객체가 생성될 때 호출
     public Car(String model, int year) {
         this.model = model;
         this.year = year;

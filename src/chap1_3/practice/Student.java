@@ -25,9 +25,4 @@ public class Student {
         System.out.println("name: " + name);
         System.out.println("grade: " + grade);
     }
-    Student(String Id, String studentname, int currentgrade) {
-        studentId = Id;
-         name= studentname;
-         grade = currentgrade;
-    }
 }

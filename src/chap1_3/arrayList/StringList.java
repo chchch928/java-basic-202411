@@ -19,6 +19,7 @@ public class StringList {
     }
 
     // 기능
+
     void modify(int index, String newFoodName) {
         if (isOutOfBounds(index)) return;
         sArr[index] = newFoodName;

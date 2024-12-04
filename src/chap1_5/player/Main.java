@@ -8,7 +8,12 @@ public class Main {
 
         System.out.println("shocking: " + shocking);
         System.out.println("insulting: " + insulting);
-        shocking.attack(insulting); // 클래스에서 this 변수를 주었지만 안적어도 자동으로 들어감
+        shocking.attack(insulting);// 클래스에서 this 변수를 주었지만 안적어도 자동으로 들어감
+
+        insulting.attack(shocking);
+        insulting.attack(shocking);
+        insulting.attack(shocking);
+        insulting.attack(shocking);
 
         System.out.println("=================");
 
