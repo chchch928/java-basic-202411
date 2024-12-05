@@ -1,7 +1,17 @@
 package chap1_10.inter.practice;
 
 public class MediaPlayer {
-    private MediaPlayable[] mediaList = new MediaPlayable[0];
+
+    private MediaPlayable[] mediaList;
+    int[] arr;
+
+    // 배열안에 대괄호를 넣어줌
+    public MediaPlayer() {
+
+        this.mediaList = new MediaPlayable[]{};
+    }
+
+
 
     public void addMedia(MediaPlayable media) {
         //  주어진 media를 mediaList배열에 추가

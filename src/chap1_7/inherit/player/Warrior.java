@@ -8,7 +8,6 @@ public class Warrior extends Player {
 
     // 직업 개별 속성
     int rage; // 분노 게이지
-
 //    public Warrior() {
 //        // 상속에서는 자식 객체를 생성하게 되면
 //        // 부모의 객체도 함께 만들어야 한다.
