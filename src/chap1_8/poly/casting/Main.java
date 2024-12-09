@@ -7,8 +7,8 @@ public class Main {
         child.c1 = 50;
         child.p1 = 200;
 
-        child.parentMethod();
-        child.childMethod();
+        child.parentMethod(); // Overriding한 child의 메서드
+        child.childMethod(); // Child 단독 메서드
 
         System.out.println("=================");
 

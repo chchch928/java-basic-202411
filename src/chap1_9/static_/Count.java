@@ -2,7 +2,6 @@ package chap1_9.static_;
 
 public class Count {
 
-
     // 접근 제한자 (access modifier) - 클래스, 필드, 메서드, 생성자
     // 사용 제한자 (usage modifier)
     // static - 필드, 메서드, (내부클래스)
@@ -33,10 +32,5 @@ public class Count {
         System.out.println("x = "+ x);
         System.out.println("y = " + y);
     }
-
-    //
-
-
-
 
 }
