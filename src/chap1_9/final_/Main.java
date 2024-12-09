@@ -6,5 +6,7 @@ public class Main {
 
         Student st1 = new Student("김철수","991111-1234567");
 
+        st1.name ="김마이클";
+//        st1.ssn ="";
     }
 }

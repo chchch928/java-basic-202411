@@ -13,8 +13,6 @@ class Cat extends Animal {
 // Animal의 eat 메서드가 final이므로 무조건 고정
 }
 
-
-
 public class Animal {
 
     public final void eat(){

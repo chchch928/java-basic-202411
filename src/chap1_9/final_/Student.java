@@ -2,7 +2,7 @@ package chap1_9.final_;
 
 public class Student {
 
-    private String name; // 학생명
+    public String name; // 학생명
     public final String ssn; // 주민번호 //final은 한번 정해지면 못바꾼다
 
     // 싱수는 불변성과 유일성을 만족해야함
