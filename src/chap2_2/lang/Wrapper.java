@@ -2,8 +2,8 @@ package chap2_2.lang;
 
 public class Wrapper {
 
-    private int a;
-    private Integer b;
+    private int a; // 기본값 :0
+    private Integer b; // 기본값: null
 
     Wrapper(){
  //       this.a = 0;

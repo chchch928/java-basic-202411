@@ -53,7 +53,7 @@ public class ObjectSample {
         Pen bluePen = new Pen(200L,"파랑",1200);
         Pen bluePen2 = new Pen(200L,"파랑",1200);
 
-        System.out.println("yellowPen = "+ yellowPen.toString());
+        System.out.println("yellowPen = "+ yellowPen);
         System.out.println("bluePen = "+ bluePen.toString());
 
         System.out.println("두 펜이 같은가? "+bluePen.equals(bluePen2));

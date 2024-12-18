@@ -35,7 +35,7 @@ public class SetExample {
 
         // set은 순서가 없기 때문에 당연히 인덱스도 없다
         set.remove("단무지");
-        System.out.println(set);
+        System.out.println(set); // [김밥,김말이,떡볶이]
 
         for(String s: set){
             System.out.println("s = " + s);
@@ -50,12 +50,12 @@ public class SetExample {
 
         // set으로 변환
         Set<Integer> numSet = new HashSet<>(numbers);
-        System.out.println(numSet);
+        System.out.println(numSet); // [1,3,5,7]
 
         // 다시 list로 변환
         numbers = new ArrayList<>(numSet);
         numbers.add(9);
-        System.out.println(numbers);
+        System.out.println(numbers); // [1,3,5,7,9]
 
         System.out.println("===================");
 
@@ -68,6 +68,7 @@ public class SetExample {
         personSet.add(p2);
         personSet.add(p3);
         System.out.println(personSet);
+        //[Person{name='김철수', ssn='991122'}, Person{name='박영희', ssn='040405'}]
     }
 }
 

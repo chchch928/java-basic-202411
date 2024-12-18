@@ -16,8 +16,7 @@ public class TryExample1 {
             System.out.printf("%d / %d = %d\n", n1, n2, result);
 
 
-
-        } catch(Exception e) {
+        } catch (Exception e) {
             System.out.println("0으로 나눌 수 없습니다.");
         }
         System.out.println("나눗셈 종료");

@@ -18,6 +18,7 @@ public class FileReaderExample {
             while(true){ // 한줄 바뀔때마다 계속 readline을 적어야하므로 반복문으로 설정
             String data = br.readLine();
 
+
             if(data == null) break; // 더이상 읽을게 없으면
 
             System.out.println(data);

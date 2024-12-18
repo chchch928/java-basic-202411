@@ -13,9 +13,9 @@ public class FileOutputExample {
     public static void main(String[] args) {
         // 바이트 기반 출력 스트림 : 파일을 내보낸다 - save 기능
         try {
-            FileOutputStream fos = new FileOutputStream(FileExample.ROOT_PATH+"/pet.txt");
+            FileOutputStream fos = new FileOutputStream(FileExample.ROOT_PATH + "/pet.txt");
 
-            fos.write(new byte[] {97, 99, 101}); // pet.txt에 ace라 출력 // byte기반이라 문자열 전송에 어려움
+            fos.write(new byte[]{97, 99, 101}); // pet.txt에 ace라 출력 // byte기반이라 문자열 전송에 어려움
 
         } catch (Exception e) {
             System.out.println("해당 경로를 찾을 수 없습니다.");

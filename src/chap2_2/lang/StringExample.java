@@ -63,7 +63,7 @@ public class StringExample {
         // split() : 문자열을 특정 기준을 기반으로 쪼개서 배열에 반환
         String food = "짜장면,짬뽕,탕수육";
         String[] foodList = food.split(",");
-        System.out.println(Arrays.toString(foodList));
+        System.out.println(Arrays.toString(foodList)); // [짜장면,짬뽕,탕수육]
 
     }
 

@@ -6,17 +6,16 @@ import java.util.Objects;
 // Snack이 스트림을 통과할 수 있도록 직렬화 가능함을 명시
 public class Snack implements Serializable {
 
-    public enum Taste{
-        GOOD,BAD
+    public enum Taste {
+        GOOD, BAD
     }
 
     private String snackName;
-    private int year;
-    private int price;
-    private Taste taste;
+    private int year; // 출시년도
+    private int price; // 가격
+    private Taste taste; // 맛
 
-    public Snack(){
-
+    public Snack() {
     }
 
     public Snack(String snackName, int year, int price, Taste taste) {
@@ -25,6 +24,7 @@ public class Snack implements Serializable {
         this.price = price;
         this.taste = taste;
     }
+
     public String getSnackName() {
         return snackName;
     }
@@ -79,7 +79,4 @@ public class Snack implements Serializable {
     public int hashCode() {
         return Objects.hash(snackName, year, price, taste);
     }
-
-
-
 }

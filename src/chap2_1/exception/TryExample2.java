@@ -15,7 +15,7 @@ public class TryExample2 {
             String str2 = sc.nextLine(); // 정수를 문자열로 입력받음
             int n2 = Integer.parseInt(str2);
 
-            int result = n1 /n2;
+            int result = n1 / n2;
             System.out.println("result: " + result);
         } catch (NumberFormatException e) {
             /*
@@ -33,7 +33,7 @@ public class TryExample2 {
             // e.printStackTrace();// 예외 상황에서 나오는 로그를 볼 수 있음
 
             System.out.println("정수를 정확하게 입력해주세요");
-        }catch(ArithmeticException e) {
+        } catch (ArithmeticException e) {
             System.out.println("0으로 나눌 수 없습니다.");
         }
 

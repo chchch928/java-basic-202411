@@ -19,9 +19,9 @@ public class FileExample {
 
         // 파일 생성하기
         // 파일명을 파일 객체로 래핑
-        File newFile= new File(ROOT_PATH +"/food.txt");
+        File newFile = new File(ROOT_PATH + "/food.txt");
 
-        if(!newFile.exists()) {
+        if (!newFile.exists()) {
             try {
                 newFile.createNewFile();
             } catch (IOException e) {
